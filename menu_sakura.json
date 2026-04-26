@@ -1,0 +1,151 @@
+{
+  "ristorante": {
+    "nome": "Sakura Sushi",
+    "citta": "Milano",
+    "cucina": "giapponese"
+  },
+  "piatti": [
+    {
+      "id": "P01",
+      "nome": "Salmone Nigiri",
+      "categoria": "nigiri",
+      "ingredienti": ["riso da sushi", "salmone", "wasabi"],
+      "allergeni": ["pesce", "sesamo"]
+    },
+    {
+      "id": "P02",
+      "nome": "Tonno Nigiri",
+      "categoria": "nigiri",
+      "ingredienti": ["riso da sushi", "tonno rosso", "wasabi"],
+      "allergeni": ["pesce", "sesamo"]
+    },
+    {
+      "id": "P03",
+      "nome": "Gambero Nigiri",
+      "categoria": "nigiri",
+      "ingredienti": ["riso da sushi", "gambero cotto", "wasabi"],
+      "allergeni": ["crostacei", "sesamo"]
+    },
+    {
+      "id": "P04",
+      "nome": "California Roll",
+      "categoria": "uramaki",
+      "ingredienti": ["riso da sushi", "surimi", "avocado", "cetriolo", "tobiko", "sesamo"],
+      "allergeni": ["pesce", "crostacei", "glutine", "sesamo", "uova"]
+    },
+    {
+      "id": "P05",
+      "nome": "Salmone Uramaki",
+      "categoria": "uramaki",
+      "ingredienti": ["riso da sushi", "salmone", "avocado", "sesamo"],
+      "allergeni": ["pesce", "sesamo"]
+    },
+    {
+      "id": "P06",
+      "nome": "Kappa Maki",
+      "categoria": "maki",
+      "ingredienti": ["riso da sushi", "cetriolo", "alga nori"],
+      "allergeni": ["sesamo"]
+    },
+    {
+      "id": "P07",
+      "nome": "Edamame",
+      "categoria": "antipasto",
+      "ingredienti": ["edamame", "sale marino"],
+      "allergeni": ["soia"]
+    },
+    {
+      "id": "P08",
+      "nome": "Gyoza al Maiale",
+      "categoria": "antipasto",
+      "ingredienti": ["farina di frumento", "maiale", "cavolo", "aglio", "zenzero", "salsa di soia"],
+      "allergeni": ["glutine", "soia"]
+    },
+    {
+      "id": "P09",
+      "nome": "Ramen Tonkotsu",
+      "categoria": "zuppa",
+      "ingredienti": ["brodo di maiale", "noodle di frumento", "uovo sodo", "alga nori", "bambù", "cipollotto", "salsa di soia"],
+      "allergeni": ["glutine", "soia", "uova"]
+    },
+    {
+      "id": "P10",
+      "nome": "Takoyaki",
+      "categoria": "antipasto",
+      "ingredienti": ["polpo", "farina di frumento", "uova", "salsa okonomiyaki", "maionese", "katsuobushi"],
+      "allergeni": ["molluschi", "pesce", "glutine", "uova"]
+    },
+    {
+      "id": "P11",
+      "nome": "Ebi Tempura",
+      "categoria": "fritto",
+      "ingredienti": ["gamberi", "farina di frumento", "uova", "olio di frittura"],
+      "allergeni": ["crostacei", "glutine", "uova"]
+    },
+    {
+      "id": "P12",
+      "nome": "Temaki Salmone",
+      "categoria": "temaki",
+      "ingredienti": ["alga nori", "riso da sushi", "salmone", "avocado", "sesamo"],
+      "allergeni": ["pesce", "sesamo"]
+    },
+    {
+      "id": "P13",
+      "nome": "Zuppa di Miso",
+      "categoria": "zuppa",
+      "ingredienti": ["pasta di miso", "tofu", "alga wakame", "cipollotto"],
+      "allergeni": ["soia"]
+    },
+    {
+      "id": "P14",
+      "nome": "Sashimi di Salmone",
+      "categoria": "sashimi",
+      "ingredienti": ["salmone fresco"],
+      "allergeni": ["pesce"]
+    },
+    {
+      "id": "P15",
+      "nome": "Onigiri Umeboshi",
+      "categoria": "onigiri",
+      "ingredienti": ["riso", "umeboshi", "alga nori", "sesamo"],
+      "allergeni": ["sesamo"]
+    }
+  ],
+  "menu_tipici": [
+    {
+      "id": "M01",
+      "nome": "Menu Sakura",
+      "descrizione": "Il classico benvenuto: nigiri di salmone e tonno, kappa maki vegetariano, edamame e zuppa di miso.",
+      "prezzo": 25.90,
+      "composizione": ["P01", "P02", "P06", "P07", "P13"]
+    },
+    {
+      "id": "M02",
+      "nome": "Menu Bento",
+      "descrizione": "Un assaggio di tutto: california roll, gyoza croccanti, edamame e miso.",
+      "prezzo": 18.50,
+      "composizione": ["P04", "P08", "P07", "P13"]
+    },
+    {
+      "id": "M03",
+      "nome": "Menu Mare",
+      "descrizione": "Per gli amanti del pesce: nigiri, sashimi, ebi tempura e temaki.",
+      "prezzo": 32.00,
+      "composizione": ["P01", "P03", "P11", "P14", "P12", "P13"]
+    },
+    {
+      "id": "M04",
+      "nome": "Menu Vegano",
+      "descrizione": "Senza proteine animali: kappa maki, edamame, onigiri umeboshi e zuppa di miso.",
+      "prezzo": 19.90,
+      "composizione": ["P06", "P07", "P15", "P13"]
+    },
+    {
+      "id": "M05",
+      "nome": "Menu Osaka",
+      "descrizione": "Lo street food di Osaka: takoyaki, ramen tonkotsu, gyoza e california roll.",
+      "prezzo": 28.50,
+      "composizione": ["P10", "P09", "P08", "P04"]
+    }
+  ]
+}
